@@ -11,8 +11,8 @@
   <body>
     <header>
       <!-- Nav Bar -->
-      <nav>
-        <div class="px-9 my-5">
+      <nav class="flex px-9 my-5 place-content-between max-h-16">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between">
           <a href="https://www.fewo-direkt.de/" class="">
             <img
               src="https://www.fewo-direkt.de/_dms/header/logo.svg?locale=de_DE&siteid=9003020&2&6f9ec7db"
@@ -20,7 +20,26 @@
               alt="fewo-direkt Logo"
             />
           </a>
-          <section></section>
+        </div>
+        <div class=" object-none object-right-top">
+            <button class="rounded-full border-2 border-grey-500 px-2 py-2">
+                Download the app 
+            </button>
+            <button class="rounded-full  px-2 py-2">
+                Travel Planner
+            </button>
+            <button class="rounded-full  px-2 py-2">
+                Register Accomodation
+            </button>
+            <button class="rounded-full  px-2 py-2">
+                Help
+            </button>
+            <button class="rounded-full  px-2 py-2">
+                My Travel
+            </button>
+            <button class="rounded-full  px-2 py-2">
+                Register 
+            </button>
         </div>
       </nav>
       <!-- Hero Section -->
@@ -34,25 +53,36 @@
           >
             Everything is fine, you book with FeWo-direkt
           </h1>
-        </div>
-        <!-- Form section  -->
-        <div class="px-4 mx-4 text-left text-black ">
-          <form>
-            <div>
-              <label> Hello </label>
-              <input />
-            </div>
-            <div>
-              <label> </label>
-              <input />
-            </div>
-            <div>
-              <label> </label>
-              <input />
-            </div>
-          </form>
+          <!-- Form Section -->
+          <div class=" rounded-full w-96">
+            <form class="flex flex-col-3 ">
+                <div class="text-white border-2 border-white-500 ">
+                  <label>  </label>
+                  <input type="search" />
+                </div>
+                <div class=" border-2 border-white-500">
+                  <label> </label>
+                  <input type="date" placeholder="16. Nov. - 30. Nov." />
+                </div>
+                <div class="border-2 border-white-500">
+                  <label> </label>
+                  <input />
+                </div>
+                <button class="rounded-full border-2 border-white-500">
+                    Seek
+                </button>
+              </form>
+          </div>
         </div>
       </section>
     </header>
+
+    <footer class="w-full bg-text border-t py-8">
+        <div class="mb-3">
+          <p class="text-black text-center text-sm">© 2024 HomeAway, an Expedia Group company. All rights reserved. HomeAway and the HomeAway logo are trademarks or registered trademarks of HomeAway.com, Inc.</p>
+        </div>
+        
+       
+      </footer>
   </body>
 </html>
